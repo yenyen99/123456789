@@ -28,7 +28,47 @@
       </audio>
             
     <header>
-     
+        <nav>
+            <ul>
+                <li><a data-section="home">Home</a></li>
+                <li><a data-section="services">Services</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a data-section="link1">Link 1</a>
+                        <a data-section="link2">Link 2</a>
+                        <a data-section="link3">Link 3</a>
+                    </div>
+                </li>
+                <li style="float:right"><a data-section="about">About us</a></li>
+            </ul>
+        </nav>
+    
+        <section id="home" class="hideable-section">
+            <div>Home content</div>
+        </section>
+    
+        <section id="services" class="hideable-section">
+            <div>Services content</div>
+        </section>
+    
+        <section id="about" class="hideable-section">
+            <div>About content</div>
+        </section>
+    
+        <section id="link1" class="hideable-section">
+            <div>Link1 content</div>
+        </section>
+    
+        <section id="link2" class="hideable-section">
+            <div>Link2 content</div>
+        </section>
+    
+        <section id="link3" class="hideable-section">
+            <div>Link3 content</div>
+        </section>
+    
+        
         <style>
           body {background-color: powderblue;}
           h1 {color: red;}
